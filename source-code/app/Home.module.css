@@ -1,0 +1,45 @@
+/* Home.module.css */
+
+/* Parallax Section */
+.parallax {
+    height: 80vh; /* Adjust height to your needs */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Content within parallax sections */
+  .content h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .content p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  /* Regular content sections */
+  .normal {
+    padding: 3rem 1rem;
+    background-color: #f4f4f4;
+  }
+  
+  .h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  
