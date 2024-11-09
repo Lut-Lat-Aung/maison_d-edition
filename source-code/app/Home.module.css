@@ -1,5 +1,70 @@
 /* Home.module.css */
 
+
+  
+  .btn {
+    background-color: #3d3d3d;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 40px 2px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #f6f6f6;
+    color: black;
+    padding: 9px 29px; 
+    border: #333 1px solid;
+
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Container holding the image and the text */
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 /* Parallax Section */
 .parallax {
     height: 80vh; /* Adjust height to your needs */
