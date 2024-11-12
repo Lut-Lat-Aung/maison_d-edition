@@ -1,5 +1,6 @@
 import Navbar from './component/navbar';
 import styles from './Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -8,12 +9,15 @@ export default function Home() {
       <Navbar />
       
       <div style={{ paddingTop: '8rem' }}> {/* Adjust padding as needed */}
+      
       {/* Parallax Section 1 */}
-      <section className={styles.parallax} style={{ backgroundImage: "url('/path-to-first-background-image.png')" }}>
+      <section className={styles.parallax} style={{ backgroundImage: "url('/image/welcome.png')" }}>
         <div className={styles.content}>
           <h1>Welcome to Open Eye Publishing House</h1>
           <p>Explore a universe of literature and creativity</p>
-          <button className={styles.btn}>Explore library</button>
+          <Link href="/library">
+            <button className={styles.btn}>Explore library</button>
+          </Link>
         </div>
       </section>
 
@@ -24,11 +28,10 @@ export default function Home() {
           Open Eye Publishing House is dedicated to bringing poems, light novels, dramas, educational, and astrology books to readers.
           Our mission is to promote literature and support creativity in Myanmar and beyond.
         </p>
-        
       </section>
 
       {/* Parallax Section 2 */}
-      <section className={styles.parallax} style={{ backgroundImage: "url('/path-to-second-background-image.png')" }}>
+      <section className={styles.parallax} style={{ backgroundImage: "url('/image/category.png')" }}>
         <div className={styles.content} id="categories">
           <h1>Our Categories</h1>
           <p>Browse through Poems, Novels, Astrology, and more!</p>
