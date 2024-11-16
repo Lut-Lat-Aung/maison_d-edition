@@ -8,10 +8,11 @@ export default function Home() {
       {/* Navbar */}
       <Navbar />
       
-      <div style={{ paddingTop: '8rem' }}> {/* Adjust padding as needed */}
+      <div >
       
       {/* Parallax Section 1 */}
-      <section className={styles.parallax} style={{ backgroundImage: "url('/image/welcome.png')" }}>
+      <section className={styles.parallax} style={{ backgroundImage: "url('/image/welcome.png')" }} >
+      <div></div>
         <div className={styles.content}>
           <h1>Welcome to Open Eye Publishing House</h1>
           <p>Explore a universe of literature and creativity</p>
@@ -31,8 +32,8 @@ export default function Home() {
       </section>
 
       {/* Parallax Section 2 */}
-      <section className={styles.parallax} style={{ backgroundImage: "url('/image/category.png')" }}>
-        <div className={styles.content} id="categories">
+      <section className={styles.parallax} style={{ backgroundImage: "url('/image/category.png')" }} id="categories">
+        <div className={styles.content} >
           <h1>Our Categories</h1>
           <p>Browse through Poems, Novels, Astrology, and more!</p>
           <button className={styles.btn}>Browse Category</button>
