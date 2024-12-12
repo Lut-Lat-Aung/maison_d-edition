@@ -23,6 +23,8 @@
 
   }
   
+
+
   .container {
     position: relative;
     text-align: center;
@@ -73,7 +75,7 @@
   
   /* Content within parallax sections */
   .content h1 {
-    
+    padding: 1rem 3rem 1rem 3rem;
     font-weight: bold;
     font-size: 4rem;
     margin: 0;
@@ -85,11 +87,27 @@
     -1px 1px 0 black, 
     1px 1px 0 black;    */
   }
+
   
   .content p {
     font-size: 1.5rem;
     margin-top: 1rem;
     text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+
+  @media (max-width: 480px) {
+    .content h1 {
+      font-size: 2rem;
+      width:500px;
+    }
+    .content p{
+      font-size:0.9rem;
+    }
+    .btn{
+      margin-top: 100px;
+    }
+    
   }
   
   /* Regular content sections */

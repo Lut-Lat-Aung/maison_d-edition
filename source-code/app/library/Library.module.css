@@ -1,3 +1,4 @@
+
 .library {
   padding: 5rem;
   text-align: center;
@@ -118,4 +119,18 @@
 
 .bookItem button:hover {
   background-color: #d32f2f;
+}
+
+.book-cover {
+  width: 100%;         /* Full width of the container */
+  height: 100%;        /* Full height of the container */
+  object-fit: cover;   /* Ensures the image scales proportionally */
+  border-radius: 8px;  /* Optional: Rounded corners */
+}
+
+.book-container {
+  height: 250px;       /* Adjust height for book cover proportion */
+  overflow: hidden;    /* Ensures cropping */
+  position: relative;  /* For layout control */
+  border-radius: 8px;  /* Optional: Rounded corners */
 }
